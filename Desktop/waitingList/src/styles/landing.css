@@ -1,0 +1,167 @@
+.first-heading {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: Regular;
+    font-size: 39px;
+    line-height: 52px;
+    line-height: 100%;
+    margin: 40px 0;
+}
+
+body {
+    background-color: #FFFBE6;
+}
+
+.second-heading {
+    text-align: center;
+    Font-style: Bold;
+    Font-size: 50px;
+    Line-height: 67px;
+    Line-height: 100%;
+    color: #236843;
+    margin: 40px 0;
+}
+
+.time-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-box-digits {
+    font-family: Poppins;
+    font-style: Medium;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 65px;
+    line-height: 100%;
+}
+
+.time-box-letters {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.blue {
+    color: #1D5EBF;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(37, 190, 108, 0.2);
+    width: 122px;
+    height: 119px;
+    margin-left: 50px;
+    border: 1px solid rgba(37, 190, 108, 0.2);
+    border-radius: 12px;
+}
+
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+    visibility: hidden;
+}
+
+.waitlist-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+        max-height: 100vh;
+    }
+    .first-heading {
+        text-align: left;
+        font-family: 'Playfair Display', serif;
+        font-style: Regular;
+        font-size: 1.5rem;
+        padding: 1rem 0.5rem;
+        line-height: 52px;
+        line-height: 100%;
+        margin: 3rem 0.9rem;
+    }
+    .second-heading {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        Line-height: 100%;
+        color: #236843;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 3rem 1.4rem;
+        margin-right: 1rem;
+    }
+    .time {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(37, 190, 108, 0.2);
+        width: 60px;
+        height: 70px;
+        margin: auto auto;
+        border: 1px solid rgba(37, 190, 108, 0.2);
+        border-radius: 12px;
+        margin-top: 3rem;
+    }
+    .time-box-digits {
+        font-family: Poppins;
+        font-style: Medium;
+        font-size: 23px;
+        line-height: 25px;
+        line-height: 100%;
+        font-weight: bold;
+    }
+    .time-box-letters {
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 10px;
+        letter-spacing: 0em;
+    }
+    .waitlist-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .logo1 {
+        display: inline;
+        position: relative;
+        bottom: 30rem;
+        left: 14rem;
+        visibility: visible;
+    }
+    .logo2 {
+        display: inline;
+        position: relative;
+        bottom: 18rem;
+        visibility: visible;
+    }
+    .logo3 {
+        display: inline;
+        position: relative;
+        bottom: 11rem;
+        left: 18rem;
+        visibility: visible;
+    }
+    .logo4 {
+        visibility: ;
+        position: relative;
+        top: 2rem;
+        left: 1rem;
+    }
+}

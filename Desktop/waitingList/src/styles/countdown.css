@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.countdown-info {
+    margin: 4rem 2rem;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    width: 85%;
+    padding: 2rem;
+}
+
+.countdown-info h2 {
+    padding-bottom: 1.5rem;
+}
+
+.countdown-info p {
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.countdown-info img {
+    padding-top: 5rem;
+    margin: 0 auto;
+    width: 110%;
+    height: 85%;
+}
+
+.countdown-input {
+    width: 100%;
+    background-color: #fff;
+    height: 120vh;
+}
+
+.form-control {
+    display: block;
+    background-color: #fff;
+    margin-top: 15rem;
+    padding-left: 7rem;
+}
+
+.form-control p {
+    padding-bottom: 2rem;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+label {
+    display: flex;
+    padding-bottom: 0.7rem;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+form .name{
+    display: flex;
+    width: 75%;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1.5px solid #7A7A7A;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.name:focus{
+    outline: none;
+}
+
+.check-flex {
+    display: flex;
+    width:80%;
+}
+
+.checkbox {
+        margin-right: 12px;
+        background-color: #646262;
+        color: #646262;
+        margin-top: 0.5rem;
+    }
+
+
+.checkbox-p {
+        align-items: center;
+        justify-content: center;
+}
+
+.btn-submit {
+    display: flex;
+    padding: 1rem 2.375rem;
+    background: #6EB751;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #6EB751;
+    margin-top: 30px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12rem;
+}
+
+.btn-submit:hover {
+     background: #638d53;
+}
+
+.btn-submit-2 {
+    display: flex;
+    padding: 1rem 2.375rem;
+    background: #eee7e7e7;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #eee7e7e7;
+    margin-top: 30px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-left: 12rem;
+}
+
+.error {
+    font-weight: Poppins;
+    font-weight: 900;
+    font-size: 12px;
+    color: red;
+}
+
+.spinner {
+    font-size: 40px;
+    padding-top: 1rem;
+    margin-left: 14rem;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        display: block;
+    }
+
+    .countdown-info {
+    margin: 4rem 1rem;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    width: 95%;
+    padding: 1rem;
+}
+
+    .countdown-input {
+    width: 100%;
+    background-color: #fff;
+    height: 80vh;
+}
+
+    .form-control {
+        display: block;
+        background-color: #fff;
+        margin-top: 4rem;
+        padding-left:5rem;
+        padding-top:2rem;
+    }
+
+    .btn-submit {
+    display: flex;
+    padding: 1rem 2.375rem;
+    margin-left: 6rem;
+}
+
+.btn-submit-2 {
+    margin-left: 6rem;
+}
+
+.spinner {
+    font-size: 30px;
+    padding-top: 1rem;
+    margin-left: 8rem;
+}
+}
